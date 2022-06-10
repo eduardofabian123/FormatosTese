@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.general-container{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container-content{
+	margin-top: 50px;
+	width: 80%;
+	height: auto;
+}
+
+.header-content{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.content-image{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon{
+    width: 80%;
+	height: 80%;
+	background-image: url('./../../../assets/icon.png');
+	background-size: 100% 100%;
+}
+
+.content-titles{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.content-description{
+	width: 100%;
+	height: 40%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.content-key-format{
+	width: 100%;
+	height: 60%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+.container-form{
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+}
+.container-item{
+	width: 100%;
+	height: auto; /*Cambiar por auto*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-bottom: 5px;
+	border-top:1px solid #ccc;
+}
+.container-icon-item{
+	width: 20%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container-controls{
+	width: 80%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding: 10px;
+	border-left: 1px solid #ccc;
+}
+
+
+.item-text{
+	width:  80%;
+	height: auto;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.container-control{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 5px;
+}
+
+small{
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+}
+.item-text > li{
+	font-size: 20px;
+	list-style: none;
+	margin-right: 5px;
+}
